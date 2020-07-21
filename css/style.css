@@ -2,11 +2,12 @@
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
-  --bg-color: #ffffff;
+  --white-color: #ffffff;
+  --bg-text-color: rgba(47, 48, 58, 0.8);
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--white-color);
   color: var(--primery-text-color);
 }
 
@@ -37,6 +38,8 @@ body {
   color: var(--accent-text-color);
 }
 
+/* Sing in */
+
 .auth-nav a {
   color: var(--primery-text-color);
 }
@@ -44,4 +47,53 @@ body {
 .auth-nav a:hover,
 .auth-nav a:focus {
   color: var(--accent-text-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--bg-text-color);
+}
+
+.hero .title {
+  color: var(--white-color);
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+}
+
+/* Work */
+
+.work .title {
+  color: var(--title-text-color);
+}
+
+/* What are we doing */
+
+.doing .title {
+  color: var(--title-text-color);
+}
+
+.doing .text {
+  color: var(--white-color);
+  background-color: var(--bg-text-color);
+}
+
+/* Team */
+
+.team .title {
+  color: var(--title-text-color);
+}
+
+.team a:hover,
+.team a:focus {
+  background-color: var(--accent-text-color);
+}
+
+/* Clients */
+
+.clients .title {
+  color: var(--title-text-color);
 }
