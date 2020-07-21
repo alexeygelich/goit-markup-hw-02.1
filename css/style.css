@@ -7,6 +7,8 @@
   --bg-footer-color: #2f303a;
   --bg-team-color: #f5f4fa;
   --address-text-color: rgba(255, 255, 255, 0.6);
+  --cards-bg-color: rgba(33, 150, 243, 0.9);
+  --filter-bg-color: #f5f4fa;
 }
 
 body {
@@ -129,4 +131,30 @@ body {
 
 .join {
   color: var(--white-color);
+}
+
+/* Portfolio */
+
+/* Filter */
+
+.filter a {
+  color: var(--title-text-color);
+  background-color: var(--filter-bg-color);
+}
+
+.filter a:hover,
+.filter a:focus {
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+}
+
+/* Cards */
+
+.cards .title {
+  color: var(--title-text-color);
+}
+
+.description {
+  color: var(--white-color);
+  background-color: var(--cards-bg-color);
 }
