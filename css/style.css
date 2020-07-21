@@ -137,13 +137,13 @@ body {
 
 /* Filter */
 
-.filter a {
+.filter button {
   color: var(--title-text-color);
   background-color: var(--filter-bg-color);
 }
 
-.filter a:hover,
-.filter a:focus {
+.filter button:hover,
+.filter button:focus {
   color: var(--white-color);
   background-color: var(--accent-text-color);
 }
