@@ -2,10 +2,11 @@
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
+  --bg-color: #ffffff;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   color: var(--primery-text-color);
 }
 
@@ -15,11 +16,32 @@ body {
 
 /* Site nav */
 
+.logo-web {
+  color: var(--accent-text-color);
+}
+
+.logo-studio {
+  color: var(--title-text-color);
+}
+
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
+}
+
+.site-nav .current {
+  color: var(--accent-text-color);
+}
+
+.auth-nav a {
+  color: var(--primery-text-color);
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-text-color);
 }
