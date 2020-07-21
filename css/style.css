@@ -4,6 +4,9 @@
   --accent-text-color: #2196f3;
   --white-color: #ffffff;
   --bg-text-color: rgba(47, 48, 58, 0.8);
+  --bg-footer-color: #2f303a;
+  --bg-team-color: #f5f4fa;
+  --address-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -17,11 +20,11 @@ body {
 
 /* Site nav */
 
-.logo-web {
+.logo {
   color: var(--accent-text-color);
 }
 
-.logo-studio {
+.logo .studio {
   color: var(--title-text-color);
 }
 
@@ -83,12 +86,16 @@ body {
 
 /* Team */
 
+.team {
+  background-color: var(--bg-team-color);
+}
+
 .team .title {
   color: var(--title-text-color);
 }
 
-.team a:hover,
-.team a:focus {
+.social a:hover,
+.social a:focus {
   background-color: var(--accent-text-color);
 }
 
@@ -96,4 +103,30 @@ body {
 
 .clients .title {
   color: var(--title-text-color);
+}
+
+.clients a:hover {
+  background-color: var(--accent-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--bg-footer-color);
+}
+
+.footer .studio {
+  color: var(--white-color);
+}
+
+.address a {
+  color: var(--white-color);
+}
+
+.mail a,
+.phone a {
+  color: var(--address-text-color);
+}
+
+.join {
+  color: var(--white-color);
 }
