@@ -166,11 +166,6 @@ body {
   text-align: center;
 }
 
-.social a:hover,
-.social a:focus {
-  background-color: var(--accent-text-color);
-}
-
 /* Clients */
 
 .clients .title {
